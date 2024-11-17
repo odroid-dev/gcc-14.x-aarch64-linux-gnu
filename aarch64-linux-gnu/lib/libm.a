@@ -1,0 +1,4 @@
+/* GNU ld script
+*/
+OUTPUT_FORMAT(elf64-littleaarch64)
+GROUP ( /mnt/ws-01/build-tools-gcc/aarch64-linux-gnu/aarch64-linux-gnu/lib/libm-2.40.a /mnt/ws-01/build-tools-gcc/aarch64-linux-gnu/aarch64-linux-gnu/lib/libmvec.a )
